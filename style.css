@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+.section1{
+    height: auto;
+}
+.topleft{
+    margin-top: 17px;
+    height: 80vh;
+width: 60%; 
+margin-left: 50px;   
+text-align: center;
+}
+
+.topright img{
+    height: 100vh;
+ width: 108%;   
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img{
+width: 28vh;
+margin-left: 8.8rem;
+}
+.img1{
+    height: 23vh;
+width: 20vh;
+
+    margin-left: 35vh;
+}
+
+
+.pricing{
+    height: auto;
+    margin-bottom: 20px;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box1{
+    border: 1px solid rgb(106, 102, 102);
+   width: 30vh;
+   height: auto;
+    margin-top: 20px;
+        
+}
+.border{
+    border: 2px solid rgb(76, 204, 240);
+}
+.para{
+    width:74%;
+    text-align: center;
+    margin-left: 23vh;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .section4 table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 140px;
+    margin-top: 10px;
+    
+}
+
+  .section4 table th{
+    width: 12vw;
+    border-bottom: 2px solid black;
+    padding: 13px 0;
+}
+
+  .section4 table td{
+    border-bottom: 2px solid black;
+    
+}
+
+.section2{
+ padding: 73px;
+}
+.section3{
+    padding: 73px;
+
+}
+.section4{
+ padding: 73px;
+
+
+}
+
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #efeaea;
+  }
+ .space{
+    width: 100%;
+    background-color: #efeaea;
+display: none;
+ }
+ .background{
+    background-color: #efeaea;
+
+
+ }
+ .items{
+    margin-bottom: 10px;
+ }
+ .button{
+    width: 18vh;
+    height: 6vh;
+    font-size:1rem ;
+ }
+ .text-white{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ .text-white:hover{
+    color:rgb(75, 38, 237);
+ }
+ .col-md-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+  .col-md-3{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100vh;
+ }

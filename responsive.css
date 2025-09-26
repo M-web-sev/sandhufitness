@@ -1,0 +1,278 @@
+/*CopyRights &copy; SandhuFitness.com | All right reserved*/
+@media (max-width: 768px) {
+   body{
+    overflow-x: hidden;
+   }  
+  .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topleft,
+    .topright {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+    .topright .image{
+        
+      width: 100%;
+      height: auto;
+        
+    }
+
+    .img,
+    .img1 {
+      display: none;
+    }
+
+    .topright img {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .box1 {
+        width: 90%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .section2, .section3, .section4 {
+        padding: 20px;
+    }
+
+    .plantable {
+        overflow-x: auto;
+    }
+
+    .table {
+        width: 600px; /* allow horizontal scroll if needed */
+    }
+
+    .font-size1 {
+        font-size: 4vh;
+    }
+
+    .font-size {
+        font-size: 1.8rem;
+    }
+    .select{
+      display: flex;
+    }
+
+    .font-size1 {
+        font-size: 1.2rem;
+    }
+    .logo{
+      margin-top: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    body{
+      overflow-x: hidden;
+     }  
+    #navbar {
+      display: none;
+      flex-direction: column;
+      background-color: #efeaea;
+      padding: 10px 0;
+      width: 100%;
+    }
+  
+    #navbar.active {
+      display: flex;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 1360px) {
+    body{
+      overflow-x: hidden;
+     }  
+    /* Navbar */
+    .navbar {
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    /* Topleft & Topright Section */
+    .topleft,
+    .topright {
+      width: 100% !important;
+      text-align: center;
+      margin-left: 0 !important;
+      padding: 0 20px;
+    }
+  
+    .topleft p {
+      font-size: 2.2vh;
+    }
+  
+    .topright img {
+      width: 100%;
+      height: auto;
+    }
+    .topright .image{
+        width: 130%;
+        height:auto;
+    }
+  
+    /* Icons */
+    .img,
+    .img1 {
+      display: none;
+    }
+  
+    /* Section Padding */
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+      padding: 30px;
+    }
+  
+    /* Pricing Cards */
+    .cards {
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .box1 {
+      width: 40vw;
+      height: auto;
+    }
+  
+    .para {
+      width: 90%;
+      margin: auto;
+    }
+  
+    /* Table Section */
+    .plantable {
+      overflow-x: auto;
+    }
+  
+    .table {
+      min-width: 600px;
+    }
+  
+    /* Typography adjustments */
+    .font-size1 {
+      font-size: 8vh;
+    }
+  
+    .font-size {
+      font-size: 4vh;
+    }
+  
+    .btn {
+      width: 100px;
+      height: 35px;
+    }
+  
+    /* Hamburger Hide (optional on tablets) */
+    .hamburger {
+      display: none;
+    }
+  }
+  @media (min-width:451px) and (max-width:699px) {
+    .btn{
+      width: 100px;
+      height: 35px;
+    }
+
+    body{
+      overflow-x: hidden;
+     }  
+  }
+
+
+  @media (max-width: 450px) {
+    body{
+      overflow-x: hidden;
+     }  
+ .section4{
+  display: none;
+ }
+ .font-size{
+ font-size: 1.5rem;
+ }
+ .topright .image{
+  display: none;
+ }
+ .logo{
+  margin-top: 11px;
+}
+.btn {
+  width: 100px;
+  height: 35px;
+}
+.footer-para{
+  display: none;
+}
+.copyright{
+  height:30vh;
+  line-height: 32vh;
+  
+}
+}
+@media (max-width:350px) {
+  body{
+    overflow-x: hidden;
+   }  
+  
+  .copyright{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    margin-bottom: 1px;
+    
+  }
+  .mar{
+    margin-top: 0px;
+  }  
+  
+}
+
+
+.ank{
+text-decoration: none;
+color: rgb(16, 14, 14);
+}
+.ank:hover{
+  color: blue;
+}
+
+}
